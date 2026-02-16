@@ -1,0 +1,19 @@
+
+        form {
+            margin: 50px;
+            padding: 20px;
+            border: 2px solid black;
+            width: 300px;
+            background-color: rgb(219, 174, 222);
+        }
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 5px 10px;
+            background-color: mediumseagreen;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
