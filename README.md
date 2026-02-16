@@ -10,4 +10,4 @@ and self-learning practice.
 - Python-based automation
 - SQL queries
 
-Tools: Python, VS Code, HTML, Git, SQL
+Tools: Python, VS Code, HTML, TestRail, Jira, SQL
