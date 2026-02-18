@@ -1,33 +1,303 @@
-<html>
-    <head>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ben Oz Shkedy | QA & IT Portfolio</title>
+  <meta name="description" content="Ben Oz Shkedy — Junior QA Engineer with strong IT troubleshooting background. Manual testing, SQL basics, test documentation, and web fundamentals." />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-        <link rel="stylesheet" href="style.css">
+<body>
+  <div class="bg"></div>
 
-        <title>HTML Project - Ben</title>
-        <style> h1{ color:mediumseagreen; } </style>
-        </head>
-        <body>
-        <b><h1 style="color: blueviolet;">HTML Project</h1></b>
-        <a href="../login/login.html" style="text-align: center;">Login</a>
-        <h1>Personal Info</h1>
-            <p>Ben Oz Shkedy</p>
-            <h1>Experience</h1>
-                <p>QA Course – Technion
-                    <br>Assistant Store Manager
-& Service and Sales Consultant
-iStore – Apple Israel
-<br>
-IT / Software Support Specialist
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Go to top">
+        <span class="logo-mark">B</span>
+        <span class="logo-text">Ben Oz Shkedy</span>
+      </a>
 
-                </p>
-            <h1>QA Skills</h1>
-            <ol>
-                <li>Manual Testing</li>
-                <li>SQL Basics</li>
-                <li>HTML Basics</li>
-                <li>Critical and analytical thinking</li>
-                <li>Attention to details</li>
-                <li>Communication skills</li>
-                <li>Good understanding of user needs</li>
-            </ol>
-        </body>
+      <nav class="nav" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn-ghost" href="https://github.com/benozshkedy" target="_blank" rel="noreferrer">
+        GitHub
+      </a>
+    </div>
+  </header>
+
+  <main id="top" class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <p class="pill">QA • IT Support • Web Fundamentals</p>
+        <h1>
+          Building reliable experiences through
+          <span class="gradient">testing</span> and
+          <span class="gradient">troubleshooting</span>.
+        </h1>
+        <p class="lead">
+          Junior QA Engineer with a strong hands-on IT background. I focus on structured manual testing,
+          clear documentation, and practical problem solving. Currently building a QA portfolio with test suites,
+          execution reports, and SQL practice.
+        </p>
+
+        <div class="cta">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn btn-ghost" href="#contact">Contact</a>
+        </div>
+
+        <div class="badges" aria-label="Highlights">
+          <span class="badge">Manual Testing</span>
+          <span class="badge">Bug Reporting</span>
+          <span class="badge">Test Documentation</span>
+          <span class="badge">SQL Basics</span>
+          <span class="badge">Git/GitHub</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card profile">
+          <div class="avatar" aria-hidden="true">
+            <span>BO</span>
+          </div>
+
+          <div class="profile-meta">
+            <h2 class="profile-name">Ben Oz Shkedy</h2>
+            <p class="profile-title">Junior QA Engineer</p>
+            <p class="profile-location">Tel Aviv, Israel</p>
+          </div>
+
+          <div class="profile-actions">
+            <a class="btn btn-small" href="#contact">Email</a>
+            <a class="btn btn-small btn-ghost" href="https://github.com/benozshkedy" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+
+          <div class="profile-stats">
+            <div class="stat">
+              <div class="stat-num">2</div>
+              <div class="stat-label">QA Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">SQL</div>
+              <div class="stat-label">Practice</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">IT</div>
+              <div class="stat-label">Troubleshooting</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card quick-links">
+          <h3>Quick Links</h3>
+          <a class="link-row" href="#projects">
+            <span>QA Projects Repository</span>
+            <span class="arrow">→</span>
+          </a>
+          <a class="link-row" href="#skills">
+            <span>Skills & Tools</span>
+            <span class="arrow">→</span>
+          </a>
+          <a class="link-row" href="#experience">
+            <span>Experience</span>
+            <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p>Selected work focused on test documentation, execution reporting, and structured QA thinking.</p>
+      </div>
+
+      <div class="grid">
+        <article class="card project">
+          <div class="project-top">
+            <h3>PlayStation Web Project (he-il)</h3>
+            <p class="muted">
+              Manual system testing focused on homepage, PS5 section, localization (RTL), and link integrity.
+              Includes execution summaries and identified issues.
+            </p>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Manual QA</span>
+            <span class="tag">Localization</span>
+            <span class="tag">RTL</span>
+            <span class="tag">Test Runs</span>
+          </div>
+
+          <div class="project-actions">
+            <a class="btn btn-small" href="https://github.com/benozshkedy/qa-projects/blob/main/manual-testing/test-cases/playstation-web-project/README.md" target="_blank" rel="noreferrer">View Playstation Project</a>
+            </a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>Library Management System</h3>
+            <p class="muted">
+              Functional and negative test cases validating business rules such as uniqueness constraints,
+              status-based actions, and borrow-limit enforcement.
+            </p>
+          </div>
+
+          <div class="tags">
+            <span class="tag">Negative Testing</span>
+            <span class="tag">Business Rules</span>
+            <span class="tag">State-based</span>
+            <span class="tag">Documentation</span>
+          </div>
+
+          <div class="project-actions">
+            <a class="btn btn-small" href="https://github.com/benozshkedy/qa-projects/blob/main/manual-testing/test-cases/library-management-system/README.md" target="_blank" rel="noreferrer">View Library Management System</a>
+            </a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>SQL</h3>
+            <p class="muted">
+              Query practice for joins, aggregation, subqueries, and QA-oriented validation checks.
+              Written for Microsoft SQL Server.
+            </p>
+          </div>
+
+          <div class="tags">
+            <span class="tag">SQL Server</span>
+            <span class="tag">Joins</span>
+            <span class="tag">Aggregation</span>
+            <span class="tag">QA Logic</span>
+          </div>
+
+          <div class="project-actions">
+            <a class="btn btn-small" href="https://github.com/benozshkedy/qa-projects/blob/main/sql/northwind-queries.sql" target="_blank" rel="noreferrer">View Queries</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="note">
+        Tip: Once GitHub Pages is enabled for this repo, you can link directly to specific folders or markdown files.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head">
+        <h2>Skills & Tools</h2>
+        <p>Practical skills used across QA projects, documentation, and troubleshooting workflows.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>QA Skills</h3>
+          <ul class="list">
+            <li>Test case writing and structured testing</li>
+            <li>Bug identification, reproduction, and analysis</li>
+            <li>UI/UX validation and usability analysis</li>
+            <li>Test execution reporting (pass/fail + findings)</li>
+            <li>Attention to detail and consistency</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Technical</h3>
+          <ul class="list">
+            <li>Git / GitHub workflows</li>
+            <li>SQL basics</li>
+            <li>HTML/CSS fundamentals</li>
+            <li>System troubleshooting and problem solving</li>
+            <li>VS Code + documentation in Markdown</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <p>Hands-on roles and learning that support QA and technical support work.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="card timeline-item">
+          <div class="time">QA Course — Technion</div>
+          <div class="title">Manual testing, documentation, and SQL fundamentals</div>
+          <p class="muted">
+            Built structured test cases, execution summaries, negative scenarios,
+            and organized portfolio artifacts for GitHub.
+          </p>
+        </div>
+
+        <div class="card timeline-item">
+          <div class="time">iStore — Apple Israel</div>
+          <div class="title">Assistant Store Manager | Service and Sales Consultant</div>
+          <p class="muted">
+            Customer-facing troubleshooting, process consistency, system navigation,
+            and clear communication under pressure.
+          </p>
+        </div>
+
+        <div class="card timeline-item">
+          <div class="time">IT / Software Support</div>
+          <div class="title">Troubleshooting and user assistance</div>
+          <p class="muted">
+            Diagnostics, issue resolution, and guidance for software/system usage.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Quick ways to reach out.</p>
+      </div>
+
+      <div class="grid two">
+        <div class="card">
+          <h3>Email</h3>
+          <p class="muted">Click to copy:</p>
+          <button class="copy" type="button" data-copy="benozshkedy@gmail.com">
+            benozshkedy@gmail.com
+            <span class="copy-hint">Copy</span>
+          </button>
+        </div>
+
+        <div class="card">
+          <h3>Links</h3>
+          <div class="links">
+            <a class="link-row" href="https://github.com/benozshkedy" target="_blank" rel="noreferrer">
+              <span>GitHub Profile</span><span class="arrow">→</span>
+            </a>
+            <a class="link-row" href="https://github.com/benozshkedy/qa-projects" target="_blank" rel="noreferrer">
+              <span>QA Projects Repository</span><span class="arrow">→</span>
+            </a>
+              <a class="link-row" href="https://www.linkedin.com/in/benozshkedy" target="_blank" rel="noreferrer">
+            <span>LinkedIn Profile</span><span class="arrow">→</span>
+             </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Ben Oz Shkedy • Built with HTML/CSS</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
