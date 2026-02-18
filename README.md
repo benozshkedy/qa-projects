@@ -1,5 +1,7 @@
 # QA Projects Portfolio
 
+[![Live Portfolio](https://img.shields.io/badge/Live-Portfolio-blue)](https://benozshkedy.github.io/qa-projects/automation/html-project/app/index.html)
+
 This repository contains QA projects created as part of my QA course
 and self-learning practice.
 
@@ -11,3 +13,5 @@ and self-learning practice.
 - SQL queries
 
 Tools: Python, VS Code, HTML, TestRail, Jira, SQL
+
+
